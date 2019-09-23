@@ -9,12 +9,11 @@ console.log(iterator.next());
 // > { done: true }
 
 /* 
-    Esto es solo un ejemplo de un patrón de diseño que se implementaba
-    antiguamente. Es como se vería en la actualidad utilizando JS.
+    Iterator Pattern - Have a producer and consumer
+    Consumer request information, one at a time from the producer until
+    one of two things happens: The producer says, I have no more 
+    information for you, or the producer says, an error ocurred.
 
-    Iterator Object es una interface simple. Nos indica si tenemos más
-    elementos en una colección.
-
-    Actualmente; Map, Filter y ConcatAll Pueden ser implementados
-    usando un iterador.
+    This is just an example in JavaScript. Currently, Map, Filter and 
+    ConcatAll can be implemented using an Iterator.
 */
