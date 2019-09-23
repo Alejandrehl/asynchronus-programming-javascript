@@ -39,3 +39,8 @@ colecciones de una sola dimensión.
 6. jQuery Events
 7. XMLHttpRequest
 8. setInterval
+
+## Introducing Observable
+
+- Observable === Collection + Time
+  > A collection that arrives over time.
