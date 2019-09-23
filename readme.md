@@ -44,3 +44,7 @@ colecciones de una sola dimensión.
 
 - Observable === Collection + Time
   > A collection that arrives over time.
+- Observables can model ...
+  1. Events
+  2. Async Server Requests
+  3. Animations
